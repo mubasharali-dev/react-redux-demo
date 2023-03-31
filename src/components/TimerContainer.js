@@ -26,7 +26,7 @@ export class TimerContainer extends React.Component {
       this.props;
     return (
       <div>
-        <h1>Timer : {value} seconds</h1>
+        <h1>Timer</h1>
         {isRunning ? (
           <button onClick={stopTimer}> Stop </button>
         ) : (
